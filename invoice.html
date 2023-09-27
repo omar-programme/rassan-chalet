@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فاتورة شاليهات رسن</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="invoice.css">
+    <link rel="icon" href="logo.icon" class="icon124">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <section class="main">
+            <div class="navbar" id="navbar">
+                <div class="logo-section">
+                    <div class="logo-date">
+                        
+                    </div>
+                    <img src="logo.png" class="logo">
+                    <div class="invoice-word">
+                        <!-- <p class="arabic"> فاتورة رقميه <span>لشاليهات الرسن</span></p>
+                        <p> invoice for <span>Rassan chalet</span> </p> -->
+                    </div>
+                </div>
+
+                <!-- <hr> -->
+
+                <section class="guest">
+                    <div class="g1">
+                        <div class="icon">
+                            <h1>معلومات المستاجر</h1>
+                            <i class="fa-regular fa-file-lines"></i>
+                        </div>
+
+                        <div class="g-txt">
+                            <input type="text" name="text-input" placeholder="اكتب الاسم هنا">
+                        </div>
+                    </div>
+
+                    <div class="g2">
+                        <div class="icon">
+                            <h1>معلومات الشاليه </h1>
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+
+                        <div class="g-txt">
+                            <span>شالية رسن | RASAN CHALE</span>
+                            <span class="ssh">/</span>
+                            <span> 056 319 3103</span>
+                        </div>
+                    </div>
+                </section>
+
+                <hr>
+
+                <section class="info" id="info">
+                    <!-- card 1 -->
+                    <div class="card1">
+                        <div class="title">
+                            <div class="icon">
+                                <h1 class="tit"> عدد الايام</h1>
+                                <i class="fa-solid fa-hashtag"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="number-1">
+                            <input type="text" name="number" class="no" maxlength="2" inputmode="numeric">
+                        </div>
+                    </div>
+
+                    <!-- card2 -->
+                    <div class="card2">
+                        <div class="title">
+                            <div class="icon">
+                                <h1 class="tit">التاريخ</h1>
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="number">
+                            <p class="date-standerd" id="date-standerd"></p>
+                        </div>
+                    </div>
+                        <!-- card3 -->
+                    <div class="card3">
+                        <div class="title">
+                            <div class="icon">
+                                <h1 class="tit">الاجمالي</h1>
+                                <i class="fa-solid fa-credit-card"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="number-2">
+                            <input type="text" name="number" class="no">
+                            <span>ر.س</span>
+                        </div>
+                    </div>
+                </section>
+
+                <hr>
+
+                <section class="check">
+                    <!-- card1 -->
+                    <div class="ck-card">
+                        <div class="ck-title">
+                            <div class="ck-icon">
+                                <h1 class="ch1">تاريخ الوصول</h1>
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+
+                            <div class="check-time-atday">
+                                <span class="ck-time"> (4:00pm - 4:30pm)</span>
+                            </div>
+                            <div class="date-stand">
+                                <input type="text" class="date-standerd1">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card2 -->
+                    <div class="ck-card2">
+                        <div class="ck-title">
+                            <div class="ck-icon">
+                                <h1 class="ch1"> موعد انتهاء الاقامه</h1>
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                            <div class="check-time-atday">
+                                <span class="ck-time">(1:30pm - 2:00pm)</span>
+                            </div>
+
+                            <div class="number">
+                                <input type="text" class="date-standerd2">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <hr>
+
+                <section class="type">
+                    <div class="tp-card">
+                        <div class="tp-title">
+                            <h1>نوع القسم</h1>
+                            <i class="fa-solid fa-bed"></i>
+                        </div>
+
+                        
+                            <select id="select-input" class="choose-input">
+                                <option value="option1">Rassan 1 - A1</option>
+                                <option value="option2">Rassan 2 - A2</option>
+                                <option value="option3">Rassan  1 & 2 - A1 & 2</option>
+                            </select>
+                        
+                    </div>
+
+                </section>
+
+                    <hr>
+
+                <section class="payment">
+                    <div id="form-container">
+                        <div class="form-row">
+                            
+                            </section>                                
+                                            <section class="paid-section">
+                                                    <div class="paid">
+                                                        <div class="paid-icon">
+                                                            <input type="text" type="text" class="frd2" placeholder="600" inputmode="numeric"> 
+                                                            <span>المطلوب</span>
+                                                            <!-- <i class="fa-solid fa-receipt"></i> -->
+                                                            
+                                                        </div>
+                                                        
+    
+                                                        <div class="paid-icon">
+                                                            <input type="text" type="text" class="frd2" placeholder="600" inputmode="numeric">
+                                                                <span>المدفوع</span>
+                                                                <!-- <i class="fa-solid fa-landmark"></i> -->
+                                                            
+                                                        
+                                                        </div>
+                                                        
+    
+                                                        <div class="paid-icon">
+                                                            <input type="text" type="text" class="frd22" placeholder="600" inputmode="numeric">
+                                                            <span>المتبقي</span>
+                                                            <!-- <i class="fa-solid fa-receipt"></i> -->
+                                                        
+                                                        </div>
+                                                        
+    
+                                                    </div>
+                                                </section>
+                                                
+                
+
+                <section class="conditions">
+                    <h1>الاحكام والشروط</h1>
+                    <br>
+                    <span>وقت الخروج المسموح به خلال يوم المغادره هو من الساعه الواحده ونصف ظهرا الي الساعه الثانيه ظهرا -</span> ,
+                    <span>وقت الخروج المسموح به خلال يوم المغادره هو من الساعه الواحده ونصف ظهرا الي الساعه الثانيه ظهرا -</span> 
+                    <br>
+                    <span> لايحق للمستاجر تاجير الاستراحه الا باذن من المؤجر -</span> , <span> يمنع منعاً باتاً استخدام الاستراحه في اغراض مننوعه او محظورة وتكون المسئولية على المستأجر امام السلطات المحلية والقضائية -</span>
+                    <br>
+                    <span>ان المؤجر غير مسؤول عن اية اضرار او اخطار تقع لاقدر الله في الارواح او فقدان للممتلكات الخاصة -</span> <span> يخصم التأمين في حالة تلف او كسر اي من ممتلكات الاستراحه وفي حال كان الضرر اكبر من قيمة التأمين يلزم المستاجر دفع الفرق -</span>
+                    <br>
+                    <span> يدفع المبلغ كاملاً عند استلام الاستراحه -</span> , <span> يمنع استخدام الالعاب النارية داخل الاستراحة -</span> , <span> عدم دخول الاطعمة والمشروبات داخل المسبح -</span> , <span> لايحق للمستأجر الغاء العقد اواسترجاع المبلغ -</span>
+                    <br>
+
+                </section>
+            </div>
+            
+        </section>
+
+        <form action="../wood_website/data/book-call .xlsx" method="post">
+            <input type="text" >
+        </form>
+        
+        <script src="invoice.js"></script>
+    </body>
+    </html>
+    
